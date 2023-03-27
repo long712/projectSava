@@ -1,0 +1,87 @@
+.basie-title-content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  max-width: 1520px;
+  margin: auto;
+}
+.basie-title-content h1 {
+  font-family: "Jura";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #6b3cfb;
+  padding-left: 8px;
+}
+
+@media only screen and (max-width: 1550px) {
+  .basie-title-content {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 1441px) {
+  .basie-title-content {
+    padding: 0 16px;
+  }
+
+  .img-use-cases {
+    width: 350px;
+  }
+
+  .use-case-background1 {
+    width: 293px;
+  }
+
+  .use-case-background {
+    width: 290px;
+  }
+
+  .use-cases {
+    justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  .basie-title-content h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .basie-title-content {
+    padding: 0 16px;
+  }
+
+  .basie-title-content h1 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .basie-title-content {
+    padding: 0 16px;
+  }
+
+  .basie-title-content h1 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .basie-title-content {
+    padding: 0 16px;
+  }
+
+  .basie-title-content h1 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .basie-title-content {
+    padding: 0 16px;
+  }
+
+  .basie-title-content h1 {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,269 @@
+.goals-container {
+  padding-top: 99px;
+}
+.goals-content-img {
+  position: relative;
+}
+
+.goals-content-element {
+  position: absolute;
+  left: 0px;
+  top: 14px;
+}
+
+.goals-content {
+}
+
+.goals-content-and-paragraph {
+  display: flex;
+  background: linear-gradient(
+    214.27deg,
+    rgba(211, 207, 252, 0.3) 50.92%,
+    rgba(234, 255, 255, 0.003) 55.94%,
+    rgba(234, 255, 255, 0.015) 59.7%,
+    rgba(234, 255, 255, 0.036) 63.47%,
+    rgba(234, 255, 255, 0.039) 63.89%,
+    rgba(234, 255, 255, 0.045) 66.82%,
+    rgba(234, 255, 255, 0.069) 70.59%,
+    rgba(234, 255, 255, 0.105) 75.61%,
+    rgba(234, 255, 255, 0.156) 81.05%,
+    rgba(234, 255, 255, 0.222) 86.49%,
+    rgba(234, 255, 255, 0.3) 92.77%
+  );
+  max-width: 1520px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.goals-paragraph {
+  font-family: "Jura";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  padding-top: 36px;
+  margin: 0;
+}
+
+.goals-button {
+  margin-top: 114px;
+}
+
+.goals-button1 {
+  font-family: "Jura";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(82.98deg, #622aea 0.64%, #1a1ffb 100%);
+  border-radius: 5px;
+  padding: 14px 28px;
+  border: none;
+  box-shadow: 0px 0px 23px rgba(152, 136, 251, 0.66);
+}
+
+.goals-button2 {
+  font-family: "Jura";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #7f5cfc;
+  border: 2px solid #7f5cfc;
+  box-shadow: inset 0px 2px 1px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 0px 17px #7b2dfb);
+  border-radius: 5px;
+  padding: 14px 28px;
+  margin-left: 15px;
+}
+
+.goals-bottom {
+  padding-left: 68px;
+}
+
+@media only screen and (max-width: 1441px) {
+  .goals-button {
+    margin-top: 78px;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  .goals-background-element {
+    width: 700px;
+  }
+
+  .goals-content-element {
+    width: 700px;
+  }
+
+  .goals-content-element {
+    width: 700px;
+  }
+
+  .goals-paragraph {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .goals-button {
+    margin-top: 81px;
+  }
+
+  .goals-content-and-paragraph {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .goals-button1,
+  .goals-button2 {
+    font-size: 20px;
+    padding: 11px 22px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .goals-content {
+    padding: 0 16px;
+  }
+  .goals-paragraph {
+    font-size: 20px;
+    padding: 16px 0;
+    line-height: 27px;
+  }
+  .goals-content-element {
+    width: 580px;
+  }
+
+  .goals-background-element {
+    width: 580px;
+  }
+
+  .goals-bottom {
+    padding: 0;
+  }
+
+  .goals-bottom ul {
+    padding-left: 37px;
+  }
+  .goals-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 14px;
+  }
+
+  .goals-button1,
+  .goals-button2 {
+    font-size: 20px;
+    padding: 11px 17px;
+  }
+
+  .goals-button2 {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .goals-content {
+    padding: 0 16px;
+  }
+  .goals-content-and-paragraph {
+    display: block;
+  }
+  .goals-content-element {
+    width: 642px;
+  }
+
+  .goals-background-element {
+    width: 642px;
+  }
+
+  .goals-bottom {
+    padding: 0;
+  }
+
+  .goals-bottom ul {
+    padding-left: 37px;
+  }
+  .goals-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+
+  .goals-button1,
+  .goals-button2 {
+    font-size: 20px;
+    padding: 14px 25px;
+  }
+
+  .goals-button2 {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .goals-content {
+    padding: 0 16px;
+  }
+  .goals-content-and-paragraph {
+    display: block;
+  }
+  .goals-content-element {
+    width: 379px;
+  }
+
+  .goals-background-element {
+    width: 379px;
+  }
+
+  .goals-bottom {
+    padding: 0;
+  }
+
+  .goals-bottom ul {
+    padding-left: 37px;
+  }
+  .goals-button {
+    display: flex;
+  }
+
+  .goals-button1,
+  .goals-button2 {
+    font-size: 20px;
+    padding: 14px 25px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .goals-content {
+    padding: 0 16px;
+  }
+  .goals-content-and-paragraph {
+    display: block;
+  }
+  .goals-content-element {
+    width: 379px;
+  }
+
+  .goals-background-element {
+    width: 379px;
+  }
+
+  .goals-bottom {
+    padding: 0;
+  }
+
+  .goals-bottom ul {
+    padding-left: 37px;
+  }
+  .goals-button {
+    display: flex;
+  }
+
+  .goals-button1,
+  .goals-button2 {
+    font-size: 20px;
+    padding: 14px 25px;
+  }
+}

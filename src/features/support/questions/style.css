@@ -1,0 +1,30 @@
+.questions-container {
+  padding-top: 49px;
+}
+
+.questions-content {
+    max-width: 1520px;
+    margin: auto;
+    padding-bottom: 33px;
+}
+.questions-content ul {
+    padding-left: 62px;
+    padding-top: 23px;
+}
+
+.questions-content li {
+  /* list-style-type: '.'; */
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  padding-bottom: 16px;
+}
+
+@media only screen and (max-width: 1281px) {
+  .questions-content li {
+    font-size: 24px;
+  }
+}

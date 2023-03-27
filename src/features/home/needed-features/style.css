@@ -1,0 +1,289 @@
+.NeededFeatures-container {
+  padding-top: 74px;
+}
+.NeededFeatures-content {
+  padding-bottom: 34px;
+}
+.NeededFeatures-content-slide {
+  background-image: url("../../../accsets/img/backgroundFeatures.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+.NeededFeatures-content-video {
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.slide-content-title {
+  text-align: center;
+  padding-top: 228px;
+}
+
+.slide-title {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 95px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #ffffff;
+  padding-bottom: 23px;
+}
+
+.slide-video {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1417px;
+  margin: auto;
+  padding-left: 30px;
+}
+
+.slide-content {
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 182px;
+}
+
+.NeededFeatures-content-video p {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 95px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 23px;
+}
+
+.NeededFeatures-content-video img {
+  width: 633px;
+}
+
+.NeededFeatures-content-background1 {
+  width: 1920px;
+}
+
+.NeededFeatures-content-paragraph {
+  max-width: 1520px;
+  margin: auto;
+  padding-top: 57px;
+}
+
+.NeededFeatures-content-paragraph li {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 1441px) {
+  .slide-video {
+    justify-content: center;
+  }
+
+  .video1 {
+    width: 400px;
+    padding-left: 10px;
+
+  }
+
+  .video2 {
+    width: 300px;
+    padding-left: 10px;
+  }
+
+  .arrowNext {
+    width: 40px;
+  }
+
+  .slide-content {
+    padding-top: 70px;
+    padding-left: 190px;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+
+  .slide-title {
+    font-size: 60px;
+  }
+  .slide-content-title {
+    padding-top: 139px;
+  }
+
+  .video2 {
+    width: 365px;
+    height: 203px;
+  }
+  .NeededFeatures-content-paragraph li {
+    font-size: 24px;
+    line-height: normal;
+    padding-bottom: 20px;
+  }
+  .video1 {
+    width: 365px;
+    height: 203px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .slide-content-title {
+    padding-top: 88px;
+  }
+
+  .slide-title {
+    font-size: 50px;
+  }
+
+  .video1 {
+    width: 330px;
+  }
+
+  .video2 {
+    width: 260px;
+    padding-left: 10px;
+  }
+
+  .slide-video {
+    justify-content: center;
+  }
+
+  .arrowNext {
+    width: 40px;
+  }
+
+  .slide-content {
+    padding-top: 50px;
+    padding-left: 75px;
+  }
+
+  .NeededFeatures-content-paragraph li {
+    font-size: 20px;
+    padding-bottom: 16px;
+  }
+
+  .NeededFeatures-content-paragraph {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .slide-content-title {
+    padding: 0;
+  }
+  .slide-title {
+    font-size: 30px;
+    padding: 0;
+    padding-top: 44px;
+  }
+  .video1 {
+    width: 200px;
+  }
+  .video2 {
+    width: 173px;
+    padding-left: 10px;
+  }
+  .arrowNext {
+    width: 20px;
+  }
+  .slide-video {
+    justify-content: center;
+    padding: 0;
+  }
+  .slide-content {
+    padding: 0;
+  }
+
+  .NeededFeatures-content-paragraph {
+    padding-top: 115px;
+    padding-left: 90px;
+    max-width: 700px;
+  }
+
+  .NeededFeatures-content-paragraph li {
+    font-size: 20px;
+    line-height: normal;
+    padding-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .slide-content-title {
+    padding: 0;
+  }
+  .slide-title {
+    font-size: 24px;
+    padding: 0;
+  }
+  .video1 {
+    width: 170px;
+  }
+  .video2 {
+    display: none;
+  }
+  .arrowNext {
+    width: 20px;
+  }
+  .slide-video {
+    justify-content: center;
+    padding: 0;
+  }
+  .slide-content {
+    padding: 0;
+  }
+
+  .NeededFeatures-content-paragraph {
+    padding-top: 10px;
+  }
+
+  .NeededFeatures-content-paragraph li {
+    font-size: 10px;
+    line-height: normal;
+    padding-bottom: 10px;
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .slide-content-title {
+    padding: 0;
+  }
+  .slide-title {
+    font-size: 24px;
+    padding: 0;
+  }
+  .video1 {
+    width: 170px;
+  }
+  .video2 {
+    display: none;
+  }
+  .arrowNext {
+    width: 20px;
+  }
+  .slide-video {
+    justify-content: center;
+    padding: 0;
+  }
+  .slide-content {
+    padding: 0;
+  }
+
+  .NeededFeatures-content-paragraph {
+    padding-top: 10px;
+  }
+
+  .NeededFeatures-content-paragraph li {
+    font-size: 10px;
+    line-height: normal;
+    padding-bottom: 10px;
+    padding-left: 50px;
+  }
+}

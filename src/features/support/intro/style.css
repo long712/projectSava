@@ -1,0 +1,109 @@
+.introduce-support-content {
+  max-width: 1520px;
+  margin: auto;
+}
+.support-content {
+  display: flex;
+  padding-bottom: 35px;
+}
+
+.introduce-support-left h1 {
+  font-family: "Jura";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #6b3cfb;
+}
+
+.introduce-support-left p {
+  font-family: "Jura";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #1f1a79;
+}
+
+@media only screen and (max-width: 1441px) {
+  .support-content {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  .introduce-support-left p{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .support-content {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .support-content {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .support-intro-img {
+    position: absolute;
+    top: 222px;
+  }
+
+  .introduce-support-left {
+    padding-top: 450px;
+    padding-bottom: 16px;
+  }
+
+  .introduce-support-left p {
+    font-size: 25px;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .support-content {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .support-intro-img {
+    position: absolute;
+    top: 212px;
+  }
+
+  .introduce-support-left {
+    padding-top: 235px;
+    padding-bottom: 16px;
+  }
+
+  .introduce-support-left p {
+    font-size: 25px;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .support-content {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .support-intro-img {
+    position: absolute;
+    top: 212px;
+  }
+
+  .introduce-support-left {
+    padding-top: 235px;
+    padding-bottom: 16px;
+  }
+
+  .introduce-support-left p {
+    font-size: 25px;
+    line-height: normal;
+  }
+}

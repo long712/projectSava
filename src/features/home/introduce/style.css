@@ -1,0 +1,304 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.introduce-container {
+  max-width: 1520px;
+  margin: auto;
+}
+
+.introduce-content {
+  display: flex;
+  padding-top: 62px;
+  align-items: flex-end;
+}
+
+.introduce-content-title1 {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #7f5cfc;
+}
+
+.introduce-content-title2 {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 74px;
+  line-height: 88px;
+  color: #000000;
+  background-color: #000;
+  background-image: url("../../../accsets/img/backgouyndLogo.png");
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position-y: bottom;
+}
+
+.introduce-content-paragraph {
+  max-width: 598px;
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  padding-top: 32px;
+  padding-bottom: 54px;
+}
+
+.introduce-content-button-left {
+  margin-right: 27px;
+  padding: 14px 25px;
+  font-family: "Jura";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  border: none;
+  background: linear-gradient(82.98deg, #622aea 0.64%, #1a1ffb 100%);
+  box-shadow: 0px 0px 23px rgba(152, 136, 251, 0.66);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.introduce-content-button-right {
+  padding: 14px 25px;
+  font-family: "Jura";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  border: 2px solid #7f5cfc;
+  border-radius: 5px;
+  color: #7f5cfc;
+  background: #fff;
+}
+
+@media only screen and (max-width: 1800px) {
+  .video1 {
+    width: 600px;
+  }
+
+  .video2 {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1441px) {
+  .introduce-content {
+    padding: 0 16px;
+    padding-top: 62px;
+  }
+
+  .introduce-content-title1 {
+    font-size: 34px;
+  }
+
+  .introduce-content-title2 {
+    font-size: 60px;
+    line-height: normal;
+    padding-top: 10px;
+    background-color: #000;
+    background-image: url("../../../accsets/img/backgouyndLogo.png");
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .introduce-content-paragraph {
+    font-size: 25px;
+    padding: 16px 0;
+  }
+
+  .introduce-content-button-right {
+    font-size: 20px;
+    padding: 11px 22px;
+  }
+
+  .introduce-content-button-left {
+    font-size: 20px;
+    padding: 11px 22px;
+    margin-right: 5px;
+  }
+
+  .slide-content-title {
+    padding-top: 161px;
+  }
+
+  .slide-title {
+    font-size: 73px;
+  }
+
+  .introduce-content-title2 {
+    font-size: 53px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .introduce-content {
+    padding: 0 16px;
+    padding-top: 62px;
+  }
+
+  .introduce-content-title2 {
+    line-height: normal;
+    font-size: 36px;
+    padding-top: 10px;
+  }
+
+  .introduce-content-paragraph {
+    font-size: 20px;
+    padding: 16px 0;
+  }
+
+  .introduce-content-button-right {
+    font-size: 20px;
+    padding: 10px 21px;
+  }
+
+  .introduce-content-button-left {
+    font-size: 20px;
+
+    margin-right: 5px;
+    padding: 11px 18px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .introduce-content {
+    position: relative;
+    display: block;
+    padding: 0 16px;
+    padding-top: 20px;
+    padding-top: 0;
+  }
+  .introduce-content-title1 {
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+  }
+  .introduce-content-title2 {
+    padding-top: 280px;
+
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+  }
+  .introduce-content-paragraph {
+    padding-top: 186px;
+    text-align: center;
+    font-size: 35px;
+    max-width: 716px;
+    margin: auto;
+  }
+
+  .itro-home-button {
+    display: flex;
+    justify-content: space-around;
+  }
+  .introduce-content-button-left {
+    margin: 0;
+  }
+
+  .introduce-content-button-right,
+  .introduce-content-button-left {
+    font-size: 25px;
+    padding: 12px;
+  }
+  .itro-home-img {
+    position: absolute;
+    top: 84px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .introduce-content {
+    position: relative;
+    display: block;
+    padding: 0 16px;
+    padding-top: 20px;
+    padding-top: 0;
+  }
+  .introduce-content-title1 {
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+  }
+  .introduce-content-title2 {
+    padding-top: 280px;
+
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+  }
+  .introduce-content-paragraph {
+    padding-top: 16px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .itro-home-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  .introduce-content-button-left {
+    margin: 0;
+  }
+
+  .introduce-content-button-right,
+  .introduce-content-button-left {
+    font-size: 20px;
+  }
+  .itro-home-img {
+    position: absolute;
+    top: 66px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .introduce-content {
+    position: relative;
+    display: block;
+    padding: 0;
+    padding-top: 20px;
+    padding-top: 0;
+  }
+  .introduce-content-title1 {
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+  }
+  .introduce-content-title2 {
+    padding-top: 280px;
+
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+  }
+  .introduce-content-paragraph {
+    padding-top: 16px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .itro-home-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  .introduce-content-button-left {
+    margin: 0;
+  }
+
+  .introduce-content-button-right,
+  .introduce-content-button-left {
+    font-size: 20px;
+  }
+  .itro-home-img {
+    position: absolute;
+    top: 66px;
+  }
+}

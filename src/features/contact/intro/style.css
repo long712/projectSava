@@ -1,0 +1,146 @@
+.introduce-contact-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 82px;
+  max-width: 1520px;
+  margin: auto;
+}
+
+.introduce-contact-content p {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-transform: uppercase;
+  max-width: 676px;
+  color: #6b3cfb;
+}
+
+.introduce-contact-img {
+  position: relative;
+}
+
+.introduce-contact-img-background {
+  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+}
+
+@media only screen and (max-width: 1441px) {
+  .introduce-contact-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+
+
+  .introduce-contact-content p {
+    font-size: 40px;
+  }
+  .introduce-contact-img-background {
+    width: 679px;
+  }
+
+  .introduce-contact-img-content {
+    width: 679px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .introduce-contact-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .introduce-contact-img-background {
+    width: 625px;
+    /* bottom: 19px; */
+  }
+
+  .introduce-contact-img-content {
+    width: 625px;
+  }
+
+  .introduce-contact-content p {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .introduce-contact-content {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .introduce-contact-content p {
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 16px;
+    max-width: none;
+  }
+
+  .introduce-contact-img-content,
+  .introduce-contact-img-background {
+    width: 727px;
+    height: 100%;
+  }
+
+  .introduce-contact-img-background {
+    bottom: 8px;
+    left: 1px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .introduce-contact-content {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .introduce-contact-content p {
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 16px;
+  }
+
+  .introduce-contact-img-content,
+  .introduce-contact-img-background {
+    width: 383px;
+    height: 100%;
+  }
+
+  .introduce-contact-img-background {
+    bottom: 8px;
+    left: 1px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .introduce-contact-content {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .introduce-contact-content p {
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 16px;
+  }
+
+  .introduce-contact-img-content,
+  .introduce-contact-img-background {
+    width: 383px;
+    height: 100%;
+  }
+
+  .introduce-contact-img-background {
+    bottom: 8px;
+    left: 1px;
+  }
+}
