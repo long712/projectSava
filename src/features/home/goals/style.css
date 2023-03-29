@@ -50,6 +50,11 @@
   margin-top: 114px;
 }
 
+.goals-button2:hover,
+.goals-button1:hover{
+  box-shadow: 0px 0px 18px 9px rgba(152, 136, 251, 0.66);
+}
+
 .goals-button1 {
   font-family: "Jura";
   font-weight: 700;
@@ -71,8 +76,8 @@
   line-height: 31px;
   color: #7f5cfc;
   border: 2px solid #7f5cfc;
-  box-shadow: inset 0px 2px 1px rgba(0, 0, 0, 0.25);
-  filter: drop-shadow(0px 0px 17px #7b2dfb);
+  box-shadow: 1px 1px 14px 3px rgba(152, 136, 251, 0.66);
+
   border-radius: 5px;
   padding: 14px 28px;
   margin-left: 15px;
@@ -83,99 +88,125 @@
 }
 
 @media only screen and (max-width: 1441px) {
+  .goals-container {
+    max-width: 1120px;
+    margin: auto;
+  }
+
+  .goals-content-element {
+    width: 600px;
+  }
+
+  .goals-background-element {
+    width: 600px;
+  }
+
+  .goals-paragraph {
+    font-size: 20px;
+    padding-top: 24px;
+  }
+
+  .goals-button2,
+  .goals-button1 {
+    font-size: 18px;
+    padding: 6px 17px;
+  }
+
   .goals-button {
-    margin-top: 78px;
+    margin-top: 32px;
   }
 }
 
 @media only screen and (max-width: 1281px) {
+  .goals-container {
+    max-width: 1015px;
+    margin: auto;
+  }
+
+  .goals-content {
+    padding: 0 16px;
+    margin: 0 -16px;
+  }
   .goals-background-element {
-    width: 700px;
+    width: 500px;
   }
 
   .goals-content-element {
-    width: 700px;
+    width: 500px;
   }
 
   .goals-content-element {
-    width: 700px;
+    width: 500px;
   }
 
   .goals-paragraph {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 16px;
   }
 
   .goals-button {
-    margin-top: 81px;
-  }
-
-  .goals-content-and-paragraph {
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-top: 91px;
   }
 
   .goals-button1,
   .goals-button2 {
-    font-size: 20px;
-    padding: 11px 22px;
+    font-size: 16px;
+    padding: 4px 15px;
   }
 }
 
 @media only screen and (max-width: 1025px) {
-  .goals-content {
-    padding: 0 16px;
-  }
-  .goals-paragraph {
-    font-size: 20px;
-    padding: 16px 0;
-    line-height: 27px;
-  }
-  .goals-content-element {
-    width: 580px;
+  .goals-container {
+    max-width: 811px;
   }
 
   .goals-background-element {
-    width: 580px;
+    width: 450px;
   }
 
-  .goals-bottom {
-    padding: 0;
+  .goals-content-element {
+    width: 450px;
   }
 
-  .goals-bottom ul {
-    padding-left: 37px;
+  .goals-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 12px;
   }
-  .goals-button {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 14px;
-  }
-
   .goals-button1,
   .goals-button2 {
-    font-size: 20px;
-    padding: 11px 17px;
+    font-size: 14px;
+    padding: 2px 13px;
   }
 
-  .goals-button2 {
-    margin: 0;
+  .goals-button {
+    margin-top: 77px;
   }
 }
 
 @media only screen and (max-width: 769px) {
+  .goals-container {
+    max-width: 600px;
+  }
   .goals-content {
     padding: 0 16px;
+  }
+
+  .goals-paragraph {
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 550px;
   }
   .goals-content-and-paragraph {
     display: block;
   }
   .goals-content-element {
-    width: 642px;
+    width: 100%;
   }
 
   .goals-background-element {
-    width: 642px;
+    width: 100%;
   }
 
   .goals-bottom {
@@ -194,7 +225,7 @@
   .goals-button1,
   .goals-button2 {
     font-size: 20px;
-    padding: 14px 25px;
+    padding: 10px 24px;
   }
 
   .goals-button2 {
@@ -203,6 +234,9 @@
 }
 
 @media only screen and (max-width: 426px) {
+  .goals-container {
+    max-width: 400px;
+  }
   .goals-content {
     padding: 0 16px;
   }
@@ -210,11 +244,11 @@
     display: block;
   }
   .goals-content-element {
-    width: 379px;
+    width: 400px;
   }
 
   .goals-background-element {
-    width: 379px;
+    width: 400px;
   }
 
   .goals-bottom {
@@ -236,7 +270,7 @@
 }
 
 @media only screen and (max-width: 415px) {
-  .goals-content {
+  /* .goals-content {
     padding: 0 16px;
   }
   .goals-content-and-paragraph {
@@ -265,5 +299,5 @@
   .goals-button2 {
     font-size: 20px;
     padding: 14px 25px;
-  }
+  } */
 }

@@ -7,9 +7,11 @@ const BasieTitle = ({ content }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="basie-title-content">
-      <BasieBox />
-      <h1>{t(content)}</h1>
+    <div className="basie-title-container">
+      <div className="basie-title-content">
+        <BasieBox />
+        <h1>{t(content)}</h1>
+      </div>
     </div>
   );
 };

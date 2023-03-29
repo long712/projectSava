@@ -35,32 +35,36 @@
 }
 
 @media only screen and (max-width: 1441px) {
-  .introduce-container {
-    padding: 0 16px;
-  }
   .about-title {
-    font-size: 50px;
+    font-size: 40px;
+    line-height: normal;
   }
 
-  .services-intro {
-    padding-left: 16px;
-    padding-right: 16px;
+  .introduce-content-left {
+    max-width: 480px;
+  }
+
+  .introduce-content-left li {
+    font-size: 24px;
+    line-height: 36px;
   }
 }
 
 @media only screen and (max-width: 1281px) {
-
   .about-introduce-content {
     padding-bottom: 32px;
   }
   .introduce-content-left li {
-    font-size: 24px;
-    line-height: 40px;
+    max-width: 373px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
   .about-title {
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: normal;
+    max-width: 652px;
+    /* line-height: 60px; */
   }
 
   .services-intro {
@@ -69,18 +73,6 @@
 }
 
 @media only screen and (max-width: 1025px) {
-  .introduce-container {
-    padding: 0 16px;
-  }
-  .about-title {
-    font-size: 50px;
-    /* padding: 0 16px; */
-  }
-
-  .introduce-content-left li {
-    font-size: 25px;
-    line-height: 27px;
-  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -88,6 +80,7 @@
     font-size: 42px;
     line-height: normal;
     text-align: center;
+    padding-top: 40px;
   }
 
   .about-introduce-content {
@@ -97,17 +90,26 @@
 
   .intro-about-img {
     position: absolute;
-    top: 270px;
+    top: 317px;
   }
 
   .introduce-content-left {
     max-width: none;
-    padding-top: 510px;
+    padding-top: 445px;
     padding-bottom: 24px;
+  }
+
+  .introduce-content-left li {
+    max-width: 544px;
+    font-size: 24px;
+    line-height: 50px;
   }
 }
 
 @media only screen and (max-width: 426px) {
+  .about-title {
+    padding-top: 11px;
+  }
   .about-title {
     font-size: 30px;
     line-height: normal;
@@ -116,7 +118,13 @@
 
   .about-introduce-content {
     display: block;
-    padding: 0 16px;
+    padding: 0;
+  }
+
+  .introduce-content-left li {
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 34px;
   }
 
   .intro-about-img {
@@ -131,7 +139,7 @@
 }
 
 @media only screen and (max-width: 415px) {
-  .about-title {
+  /* .about-title {
     font-size: 30px;
     line-height: normal;
     text-align: center;
@@ -150,5 +158,5 @@
   .introduce-content-left {
     padding-top: 277px;
     padding-bottom: 24px;
-  }
+  } */
 }

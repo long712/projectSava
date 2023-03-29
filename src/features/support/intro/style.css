@@ -25,24 +25,51 @@
 }
 
 @media only screen and (max-width: 1441px) {
-  .support-content {
+  .introduce-support-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .introduce-support-content {
     padding: 0 16px;
+    margin: 0 -16px;
+  }
+  .introduce-support-left p {
+    font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 1281px) {
-  .introduce-support-left p{
-    font-size: 24px;
+  .introduce-support-container {
+    max-width: 1015px;
+    margin: auto;
+  }
+
+  .introduce-support-content {
+    padding: 0 16px;
+    margin: 0 -16px;
+  }
+  .introduce-support-left p {
+    font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 1025px) {
-  .support-content {
-    padding: 0 16px;
+  .introduce-support-container {
+    max-width: 811px;
+  }
+
+  .introduce-support-left p {
+    font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 769px) {
+
+  .introduce-support-container {
+    max-width: 600px;
+    padding-top: 30px;
+  }
+
   .support-content {
     display: block;
     padding: 0 16px;
@@ -50,16 +77,16 @@
 
   .support-intro-img {
     position: absolute;
-    top: 222px;
+    top: 273px;
   }
 
   .introduce-support-left {
-    padding-top: 450px;
-    padding-bottom: 16px;
+    padding-top: 416px;
+    padding-bottom: 24px;
   }
 
   .introduce-support-left p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: normal;
   }
 }

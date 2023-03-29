@@ -14,9 +14,9 @@ const Introduce = () => {
       <div className="introduce-content">
         <div>
           <p className="introduce-content-title1">{t("VIRTUAL REALITY")}</p>
-          <p className="introduce-content-title2">
+          <h1 className="introduce-content-title2">
             {t("Virtual Reality Meeting")}
-          </p>
+          </h1>
           <p className="introduce-content-paragraph">
             {t(
               " Elevate your organization's virtual presence with MeetinVR. Our platform provides all the tools you need to meet with your team or customers, host events, workshops, and training sessions in the metaverse."
@@ -32,11 +32,7 @@ const Introduce = () => {
           </div>
         </div>
         <div className="itro-home-img">
-          <BasieImgIntroduce
-            backgroundIntroduce={backgroundIntroduce}
-            imgIntroduce={imgIntroduce}
-            imgBackground={imgBackground}
-          />
+          <BasieImgIntroduce imgIntroduce={imgIntroduce} />
         </div>
       </div>
     </div>

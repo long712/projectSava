@@ -28,8 +28,9 @@ const Info = () => {
         </div>
 
         <div className="info-map">
-          <img src={backgroundContact} alt="" className="info-overlay" />
-          <img src={imgContact} alt="" className="info-map-img" />
+          <iframe
+          className="info-gg-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1615630745637!2d105.85227182962227!3d20.986159849909818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac15b663f2d3%3A0xa3fa073f18c5b5a9!2zODkgxJDhu4FuIEzhu6sgMywgSG_DoG5nIFbEg24gVGjhu6UsIEhhaSBCw6AgVHLGsG5nLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1679998095870!5m2!1svi!2s"          ></iframe>
         </div>
       </div>
     </div>
@@ -37,3 +38,4 @@ const Info = () => {
 };
 
 export default Info;
+

@@ -15,65 +15,73 @@
   padding-left: 8px;
 }
 
-@media only screen and (max-width: 1550px) {
-  .basie-title-content {
-    padding: 0 16px;
-  }
-}
 
 @media only screen and (max-width: 1441px) {
+  .basie-title-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
   .basie-title-content {
     padding: 0 16px;
+    margin: 0 -16px;
   }
 
-  .img-use-cases {
-    width: 350px;
-  }
-
-  .use-case-background1 {
-    width: 293px;
-  }
-
-  .use-case-background {
-    width: 290px;
-  }
-
-  .use-cases {
-    justify-items: center;
+  .basie-title-content h1 {
+    font-size: 40px;
   }
 }
 
 @media only screen and (max-width: 1281px) {
+  .basie-title-container {
+    max-width: 1015px;
+    margin: auto;
+  }
+
+  .basie-title-content {
+    padding: 0 16px;
+    margin: 0 -16px;
+  }
+
   .basie-title-content h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 
 @media only screen and (max-width: 1025px) {
+  .basie-title-container {
+    max-width: 811px;
+    margin: auto;
+  }
+
   .basie-title-content {
     padding: 0 16px;
+    margin: 0 -16px;
   }
 
   .basie-title-content h1 {
-    font-size: 42px;
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 769px) {
-  .basie-title-content {
-    padding: 0 16px;
+
+  .basie-title-container {
+    max-width: 600px;
+    margin: auto;
   }
 
   .basie-title-content h1 {
-    font-size: 42px;
+    font-size: 38px;
   }
 }
 @media only screen and (max-width: 426px) {
-  .basie-title-content {
-    padding: 0 16px;
+  .basie-title-container {
+    max-width: 400px;
+    margin: auto;
   }
 
   .basie-title-content h1 {
-    font-size: 22px;
+    font-size: 28px;
   }
 }
 @media only screen and (max-width: 415px) {

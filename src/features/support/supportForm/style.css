@@ -35,19 +35,66 @@
   border: 3px solid #ffffff;
   padding: 24px 46px 26px 46px;
 }
-@media only screen and (max-width: 1281px) {
+
+@media only screen and (max-width: 1441px) {
   .support-form-container {
-    margin: 0 16px;
+    max-width: 1200px;
+    /* margin: 0 16px; */
   }
 
   .support-form-content input {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .support-button {
-    font-size: 24px;
-    padding: 20px 42px 22px 42px;
+    font-size: 20px;
+    padding: 18px 38px 18px 38px;
+  }
+}
+@media only screen and (max-width: 1281px) {
+  .support-form-container {
+    max-width: 1015px;
+    /* margin: 0 16px; */
+  }
+
+  .support-form-content input {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .support-button {
+    font-size: 20px;
+    padding: 18px 38px 18px 38px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .support-form-container {
+    max-width: 811px;
+  }
+
+  .support-button {
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .support-form-content input {
+    padding-top: 12px;
+    padding-bottom: 14px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .support-form-container {
+    max-width: 600px;
+  }
+
+  .support-form-content input {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-size: 10px;
   }
 }
 

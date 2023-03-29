@@ -11,9 +11,13 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-content">
         <img src={imgFooter} alt="" className="img-footer" />
+        <img src={backgroundFooter} alt="" className="background-footer1" />
         <img src={backgroundFooter} alt="" className="background-footer" />
         <div className="footer-item">
           <div className="footer-submit-form">
+            <div className="footer-text-top">
+              <p>{t("Enter phone number/email")}</p>
+            </div>
             <div className="footer-submit-form-top">
               <div>
                 <input placeholder={t("Enter phone number/email")} />
@@ -31,7 +35,7 @@ const Footer = () => {
               {t("SAVA Metaverse Meeting")}
             </p>
             <div className="footer-address-nav">
-              <div>
+              <div className="content-footer">
                 <p className="footer-address-nav-title">{t("Address")}</p>
                 <p className="footer-address-nav-content">
                   {t(
@@ -39,13 +43,13 @@ const Footer = () => {
                   )}
                 </p>
               </div>
-              <div>
+              <div className="content-footer">
                 <p className="footer-address-nav-title">{t("Email")}</p>
                 <p className="footer-address-nav-content">
                   {t("contact@savameta.com")}
                 </p>
               </div>
-              <div>
+              <div className="content-footer">
                 <p className="footer-address-nav-title">{t("Phone")}</p>
                 <p className="footer-address-nav-content">
                   {t("+84969877888")}

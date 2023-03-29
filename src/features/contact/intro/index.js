@@ -2,12 +2,13 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import backgroundIntroduce from "../../../accsets/img/backgroundIntroduce.png";
 import imgIntroduce from "../../../accsets/img/imgIntroContact.png";
+import BasieImgIntroduce from "../../../conponents/img";
 import "./style.css";
 const IntroduceContact = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="introduce-contact-container">
       <div className="introduce-contact-content">
         <p className="test">
           {t(
@@ -15,7 +16,7 @@ const IntroduceContact = () => {
           )}
         </p>
         <div className="introduce-contact-img">
-          <img
+          {/* <img
             src={backgroundIntroduce}
             alt=""
             className="introduce-contact-img-background"
@@ -24,7 +25,8 @@ const IntroduceContact = () => {
             src={imgIntroduce}
             alt=""
             className="introduce-contact-img-content"
-          />
+          /> */}
+          <BasieImgIntroduce imgIntroduce={imgIntroduce} />
         </div>
       </div>
     </div>

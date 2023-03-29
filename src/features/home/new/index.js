@@ -15,43 +15,53 @@ const New = () => {
     <div className="new-container">
       <div>
         <BasieTitle content={content} />
-        
+
         <div className="new-content">
-          <div className="new-content-element">
-            <div className="nav-new-content-element">
-              <div style={{ position: "relative" }}>
-                <img src={imgNew1} alt="" className="new-img" />
-                <img src={backgroundNew} alt="" className="new-background" />
+          <div className="new-container-element">
+            <div className="new-content-element">
+              <div className="nav-new-content-element">
+                <div style={{ position: "relative" }}>
+                  <img src={imgNew1} alt="" className="new-img" />
+                  <img src={backgroundNew} alt="" className="new-background" />
+                </div>
+                <di>
+                  <p className="new-content-date">10/03/2023</p>
+                  <p className="new-content-paragraph">
+                    {t("Virtual reality support & enhance outdoor")}
+                  </p>
+                  <button className="new-content-button">
+                    {t("LEARN MORE")}
+                  </button>
+                </di>
               </div>
-              <p className="new-content-date">10/03/2023</p>
-              <p className="new-content-paragraph">
-                {t("Virtual reality support & enhance outdoor")}
-              </p>
-              <button className="new-content-button">{t("LEARN MORE")}</button>
-            </div>
 
-            <div className="nav-new-content-element">
-              <div style={{ position: "relative" }}>
-                <img src={imgNew2} alt="" className="new-img" />
-                <img src={backgroundNew} alt="" className="new-background" />
+              <div className="nav-new-content-element">
+                <div style={{ position: "relative" }}>
+                  <img src={imgNew2} alt="" className="new-img" />
+                  <img src={backgroundNew} alt="" className="new-background" />
+                </div>
+                <p className="new-content-date">10/03/2023</p>
+                <p className="new-content-paragraph">
+                  {t("Alternative VR device management options")}
+                </p>
+                <button className="new-content-button">
+                  {t("LEARN MORE")}
+                </button>
               </div>
-              <p className="new-content-date">10/03/2023</p>
-              <p className="new-content-paragraph">
-                {t("Alternative VR device management options")}
-              </p>
-              <button className="new-content-button">{t("LEARN MORE")}</button>
-            </div>
 
-            <div className="nav-new-content-element">
-              <div style={{ position: "relative" }}>
-                <img src={imgNew3} alt="" className="new-img" />
-                <img src={backgroundNew} alt="" className="new-background" />
+              <div className="nav-new-content-element">
+                <div style={{ position: "relative" }}>
+                  <img src={imgNew3} alt="" className="new-img" />
+                  <img src={backgroundNew} alt="" className="new-background" />
+                </div>
+                <p className="new-content-date">10/03/2023</p>
+                <p className="new-content-paragraph">
+                  {t("Increasing Innovation Among Your Remote Workers")}
+                </p>
+                <button className="new-content-button">
+                  {t("LEARN MORE")}
+                </button>
               </div>
-              <p className="new-content-date">10/03/2023</p>
-              <p className="new-content-paragraph">
-                {t("Increasing Innovation Among Your Remote Workers")}
-              </p>
-              <button className="new-content-button">{t("LEARN MORE")}</button>
             </div>
           </div>
         </div>

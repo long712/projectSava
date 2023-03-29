@@ -10,7 +10,7 @@ const resources = {
       contact: "contact",
       about: "about",
       support: "support",
-      "sing in": "sing in",
+      "sign in": "sign in",
       Search: "Search",
       "VIRTUAL REALITY": "VIRTUAL REALITY",
       "Virtual Reality Meeting": "Virtual Reality Meeting",
@@ -108,7 +108,6 @@ const resources = {
       "Can invite guests, if so will they be licensed?":
         "Can invite guests, if so will they be licensed?",
       "Enter phone number/email": "Enter phone number/email",
-
       "Contact info": "Contact info",
     },
   },
@@ -116,9 +115,9 @@ const resources = {
     translation: {
       home: "trang chủ",
       contact: "liên hệ",
-      about: "về",
+      about: "giới thiệu",
       support: "hỗ trợ",
-      "sing in": "đăng nhập",
+      "sign in": "đăng nhập",
       Search: "Tìm kiếm",
       "VIRTUAL REALITY": "THỰC TẾ ẢO",
       "Virtual Reality Meeting": "Cuộc họp thực tế ảo",

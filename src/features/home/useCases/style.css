@@ -3,8 +3,8 @@
   margin: auto;
 }
 .useCasesButton {
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.25);
-  filter: drop-shadow(0px 0px 2px #792ef4);
+  box-shadow: 0px 0px 23px rgba(152, 136, 251, 0.66);
+  /* filter: drop-shadow(0px 0px 2px #792ef4); */
   border-radius: 5px;
   border: 2px solid #7f5cfc;
   font-family: "Jura";
@@ -15,6 +15,10 @@
   /* text-shadow: 0px 0px 10px #bba4fb; */
   padding: 14px 31px;
   margin-top: 30px;
+}
+
+.useCasesButton:hover {
+  box-shadow: 0px 0px 18px 9px rgba(152, 136, 251, 0.66);
 }
 .use-case-element {
   position: relative;
@@ -52,52 +56,124 @@
 }
 
 .img-use-cases {
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 @media only screen and (max-width: 1441px) {
-  .use-cases {
-    /* grid-template-columns: auto auto; */
-    justify-items: center;
+  .useCasesContainer {
+    max-width: 1200px;
   }
-}
 
-@media only screen and (max-width: 1281px) {
+  .use-cases {
+    padding-top: 32px;
+  }
+
   .img-use-cases {
-    width: 308px;
-    padding-left: 0;
+    width: 300px;
   }
+
   .use-case-background {
-    width: 270px;
+    width: 262px;
     left: 19px;
-    top: 58%;
   }
+
   .use-case-background1 {
-    width: 270px;
+    width: 262px;
     left: 19px;
   }
 
   .use-case-paragraph {
+    font-size: 16px;
+  }
+
+  .useCasesButton {
+    font-size: 18px;
+    padding: 6px 17px;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  .useCasesContainer {
+    max-width: 1015px;
+    margin: auto;
+  }
+
+  .useCasesContent {
+    padding: 0 16px;
+    margin: 0 -16px;
+  }
+  .img-use-cases {
+    width: 250px;
+    padding-left: 0;
+  }
+  .use-case-background {
+    width: 216px;
+    left: 19px;
+    top: 58%;
+  }
+  .use-case-background1 {
+    width: 216px;
+    left: 19px;
+  }
+
+  .use-case-paragraph {
+    font-size: 18px;
     max-width: 212px;
   }
 
   .useCasesButton {
-    font-size: 20px;
-    padding: 11px 22px;
+    font-size: 16px;
+    padding: 4px 15px;
+  }
+
+  .use-cases {
+    padding-top: 30px;
   }
 }
 
 @media only screen and (max-width: 1025px) {
+  .useCasesContainer {
+    max-width: 811px;
+  }
+  .img-use-cases {
+    width: 200px;
+  }
+
+  .use-case-background {
+    width: 169px;
+    left: 16px;
+    /* top: 58%; */
+  }
+
+  .use-case-background1 {
+    width: 169px;
+    left: 16px;
+  }
+
+  .use-case-paragraph {
+    font-size: 14px;
+    max-width: 172px;
+  }
+
+  .useCasesButton {
+    font-size: 14px;
+    padding: 2px 13px;
+  }
   .use-cases {
-    grid-template-columns: auto auto;
-    justify-items: center;
   }
 }
 
 @media only screen and (max-width: 769px) {
+  .useCasesContainer {
+    max-width: 600px;
+  }
   .use-cases {
     grid-template-columns: auto auto;
-    justify-content: center;
+    /* justify-content: center; */
+  }
+
+  .img-use-cases {
+    width: 300px;
   }
 
   .img-use-cases {
@@ -106,14 +182,30 @@
 
   .use-case-background1 {
     left: 21px;
+    width: 261px;
   }
 
   .use-case-background {
+    width: 261px;
     left: 20px;
+  }
+
+  .use-case-paragraph {
+    font-size: 18px;
+    max-width: 220px;
+  }
+
+  .useCasesButton {
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-bottom: 20px;
   }
 }
 
 @media only screen and (max-width: 426px) {
+  .useCasesContainer {
+    max-width: 400px;
+  }
   .use-cases {
     grid-template-columns: auto;
     justify-content: center;
@@ -133,7 +225,7 @@
 }
 
 @media only screen and (max-width: 415px) {
-  .use-cases {
+  /* .use-cases {
     grid-template-columns: auto;
     justify-content: center;
   }
@@ -148,5 +240,5 @@
 
   .use-case-background {
     left: 20px;
-  }
+  } */
 }
